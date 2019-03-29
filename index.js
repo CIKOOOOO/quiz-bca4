@@ -188,7 +188,7 @@ function getValue(){
 	}
 	else ans3 += 5;
 
-	if(document.getElementById('ans-15').checked){
+	if(document.getElementById('ans-16').checked){
 		ans4 += 20*(25-parseInt(document.getElementById("quest4").value));
 	}
 	else ans4 += 5;

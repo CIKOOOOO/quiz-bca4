@@ -103,12 +103,12 @@
 					<div class="question">Apa jawaban nomor 9?</div> 
 		
 					<div class="ansrow-1">
-						<input id="ans-13" type="radio" name="question4" value="a">Go-Car<br>
-						<input id="ans-14" type="radio" name="question4" value="b">Go-Send
+						<input id="ans-13" type="radio" name="question4" value="a">Rp. 0<br>
+						<input id="ans-14" type="radio" name="question4" value="b">Rp. 1
 				   </div>
 				   <div class="ansrow-2">
-						<input id="ans-15" type="radio" name="question4" value="c" onclick="clicked4()">Go-Message<br>
-						<input id="ans-16" type="radio" name="question4" value="d">Go-Ride
+						<input id="ans-15" type="radio" name="question4" value="c">Rp. 20,000<br>
+						<input id="ans-16" type="radio" name="question4" value="d"  onclick="clicked4()">Rp. 500,000
 				   </div>
 				</div>
 
