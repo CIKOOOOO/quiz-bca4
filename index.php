@@ -41,7 +41,7 @@
 			<h1>Quiz Bca</h1>
 				<!-- <form method="POST" action="main_quiz1.php" onsubmit="return submitClick();">	 -->
 					<div class="nickbox">
-						<input type="text" id="inputNickname" placeholder="masukan nickname" name="nickname" required> <br>
+						<input type="text" id="inputNickname" placeholder="masukan id" name="nickname" required> <br>
 					</div>
 					<button id="btn" onclick="submitClick()">submit</button>
 					<button id="btn_total" onclick="showTotalScore()">show total score</button>
