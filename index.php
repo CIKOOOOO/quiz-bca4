@@ -9,7 +9,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>. -->
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
 		<script>
 		  // Initialize Firebase
@@ -56,74 +56,94 @@
 	<!-- screen 2 -->
 	<div id="bodycontainer2">
 		<div class="container2">
-			<progress value="0" max="25" id="progressBar"></progress>
+			<!-- <progress value="0" max="25" id="progressBar"></progress> -->
 			<div class="box">
-				<img src="/res/bca.png" width="100px" height="100px" alt="qimg">
-				<div class="question">Siapa penemu teori Heliosentris?</div> 
+				<!-- <img src="/res/bca.png" width="100px" height="100px" alt="qimg"> -->
+				<div class="question">Sudah berapa kali aplikasi Go-Jek didownload di Play Store?</div> 
 	
 				<div class="ansrow-1">
-					 <input id="ans-1" type="radio" name="question1" value="a">  Donald Trump <br>
-					 <input id="ans-2" type="radio" name="question1" value="b">  Soeharto
+					 <input id="ans-1" type="radio" name="question1" value="a">
+					 <label for="ans-1">75M</label> <br>
+					 <input id="ans-2" type="radio" name="question1" value="b">
+					 <label for="ans-2">100M</label>
 				</div>
 				<div class="ansrow-2">
-					 <input id="ans-3" type="radio" name="question1" value="c">  Albert Einstein <br>
-					 <input id="ans-4" type="radio" name="question1" value="d" onclick="clicked1()">  Galileo Galilei
+					 <input id="ans-3" type="radio" name="question1" value="c" onclick="clicked1()">
+					 <label for="ans-3">125M</label> <br>
+					 <input id="ans-4" type="radio" name="question1" value="d">
+					 <label for="ans-4">150M</label>
 				</div>
 			</div>
 	
 			<div class="box">
-					<img src="/res/wheel1.png" width="100px" height="100px" alt="qimg">
-					<div class="question">Warna bendera Indonesia</div> 
+					<!-- <img src="/res/wheel1.png" width="100px" height="100px" alt="qimg"> -->
+					<div class="question">Apa nama device yang digunakan untuk melakukan transaksi di klikbca?</div> 
 		
 					<div class="ansrow-1">
-						<input id="ans-5" type="radio" name="question2" value="a">Merah merona<br>
-						<input id="ans-6" type="radio" name="question2" value="b" onclick="clicked2()">Merah - Putih
+						<input id="ans-5" type="radio" name="question2" value="a">
+						<label for="ans-5">Pin BCA</label> <br>
+						<input id="ans-6" type="radio" name="question2" value="b" onclick="clicked2()">
+						<label for="ans-6">Key BCA</label>
 				   </div>
 				   <div class="ansrow-2">
-						<input id="ans-7" type="radio" name="question2" value="c" >Merah - Kuning - Hijau<br>
-						<input id="ans-8" type="radio" name="question2" value="d">Dilangit yang biru
+						<input id="ans-7" type="radio" name="question2" value="c" >
+						<label for="ans-7">BCA Mobile</label> <br>
+						<input id="ans-8" type="radio" name="question2" value="d">
+						<label for="ans-8">Portable ATM</label>
 				   </div>
 				</div>
 
 				<div class="box">
-					<img src="/res/wheel1.png" width="100px" height="100px" alt="qimg">
-					<div class="question">Nama lain pulau Kalimantan?</div> 
+					<!-- <img src="/res/wheel1.png" width="100px" height="100px" alt="qimg"> -->
+					<div class="question">Di Vietnam Go-Jek dikenal dengan nama apa?</div> 
 		
 					<div class="ansrow-1">
-						<input id="ans-9" type="radio" name="question3" value="a">ExRiver<br>
-						<input id="ans-10" type="radio" name="question3" value="b" onclick="clicked3()">Borneo
+						<input id="ans-9" type="radio" name="question3" value="a">
+						<label for="ans-9">Go-Jek Vietnam</label> <br>
+						<input id="ans-10" type="radio" name="question3" value="b" onclick="clicked3()">
+						<label for="ans-10">Go-Viet</label>
 				   </div>
 				   <div class="ansrow-2">
-						<input id="ans-11" type="radio" name="question3" value="c">Oenrob<br>
-						<input id="ans-12" type="radio" name="question3" value="d">Saya nyerah
+						<input id="ans-11" type="radio" name="question3" value="c">
+						<label for="ans-11">Go-Viets</label> <br>
+						<input id="ans-12" type="radio" name="question3" value="d">
+						<label for="ans-12">GET</label>
 				   </div>
 				</div>
 
 				<div class="box">
-					<img src="/res/wheel1.png" width="100px" height="100px" alt="qimg">
-					<div class="question">Apa jawaban nomor 9?</div> 
+					<!-- <img src="/res/wheel1.png" width="100px" height="100px" alt="qimg"> -->
+					<div class="question">Go-Jek pernah muncul di majalah apa?</div> 
 		
 					<div class="ansrow-1">
-						<input id="ans-13" type="radio" name="question4" value="a">Rp. 0<br>
-						<input id="ans-14" type="radio" name="question4" value="b">Rp. 1
+						<input id="ans-13" type="radio" name="question4" value="a">
+						<label for="ans-13">Timing</label> <br>
+						<input id="ans-14" type="radio" name="question4" value="b">
+						<label for="ans-14">Timed</label>
 				   </div>
 				   <div class="ansrow-2">
-						<input id="ans-15" type="radio" name="question4" value="c">Rp. 20,000<br>
-						<input id="ans-16" type="radio" name="question4" value="d"  onclick="clicked4()">Rp. 500,000
+						<input id="ans-15" type="radio" name="question4" value="c">
+						<label for="ans-15">Times</label> <br>
+						<input id="ans-16" type="radio" name="question4" value="d"  onclick="clicked4()">
+						<label for="ans-16">Time</label>
 				   </div>
 				</div>
 
 				<div class="box">
-					<img src="/res/wheel1.png" width="100px" height="100px" alt="qimg">
-					<div class="question">Siapa pemilik saham terbesar di BCA?</div> 
+					<!-- <img src="/res/wheel1.png" width="100px" height="100px" alt="qimg"> -->
+					<div class="question">Berikut adalah list karyawan yang berulang tahun pada bulan Juli, kecuali</div> 
 		
 					<div class="ansrow-1">
-						<input id="ans-17" type="radio" name="question5" value="a">Michael Bambang Hartono<br>
-						<input id="ans-18" type="radio" name="question5" value="b">Robert Budi Hartono
+						<input id="ans-17" type="radio" name="question5" value="a">
+						<label for="ans-17">Johannes Budiman</label> <br>
+						<input id="ans-18" type="radio" name="question5" value="b" onclick="clicked5()">
+						<label for="ans-18">Martinus Robert Winarta</label>
 				   </div>
 				   <div class="ansrow-2">
-						<input id="ans-19" type="radio" name="question5" value="c" onclick="clicked5()">Klik ini untuk dapat point!!<br>
-						<input id="ans-20" type="radio" name="question5" value="d">Saya kurang tau ya
+						<input id="ans-19" type="radio" name="question5" value="c">
+						<label for="ans-19">Charles Buntoro</label> <br>
+						<input id="ans-20" type="radio" name="question5" value="d">
+						<label for="ans-20">Richard Gunawan Jusup</label>
 				   </div>
 				</div>
 	

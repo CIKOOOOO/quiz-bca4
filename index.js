@@ -187,7 +187,7 @@ function clicked5(){
 function getValue(){
 	var ans1 = 0,ans2 = 0,ans3=0,ans4=0
 	,ans5 = 0;
-	if(document.getElementById('ans-4').checked){
+	if(document.getElementById('ans-3').checked){
 		ans1 += 20*(25-parseInt(document.getElementById("quest1").value));
 	}
 	else ans1 += 5;
@@ -208,10 +208,8 @@ function getValue(){
 	}
 	else ans4 += 5;
 
+	
 	if(document.getElementById('ans-18').checked){
-		ans5 += 20;
-	}
-	else if(document.getElementById('ans-19').checked){
 		ans5 += 20*(25-parseInt(document.getElementById("quest5").value));
 	}
 	else ans5 += 5;

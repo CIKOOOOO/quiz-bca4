@@ -132,17 +132,62 @@ body{
 }
 
 .ansrow-1{
-    width: 46%;
+    width: 50%;
     height: 80px;
     float: left;
-    padding-left: 4%;
+    text-align: center;
 }
 
-.ansrow-2{
-    width: 42%;
-    float: left;
-    padding-left: 8%;
+.ansrow-1 input[type="radio"]{
+    display: none;
 }
+
+.ansrow-1 label {
+    display:inline-block;
+    background-color:#ddd;
+    padding: 10px 0px;
+    font-size:16px;
+    border: 1px solid #444;
+    width: 98%;
+}
+
+.ansrow-1 input[type="radio"]:checked + label { 
+    background-color:#bfb;
+    border-color: #4c4;
+}
+
+.ansrow-1 label:hover {
+    background-color: #dfd;
+  }
+
+  .ansrow-2{
+    width: 50%;
+    float: left;
+    padding-left: 0%;
+    text-align: center;
+}
+
+.ansrow-2 input[type="radio"]{
+    display: none;
+}
+
+.ansrow-2 label {
+    display:inline-block;
+    background-color:#ddd;
+    padding: 10px 0px;
+    font-size:16px;
+    border: 1px solid #444;
+    width: 98%;
+}
+
+.ansrow-2 input[type="radio"]:checked + label { 
+    background-color:#bfb;
+    border-color: #4c4;
+}
+
+.ansrow-2 label:hover {
+    background-color: #dfd;
+  }
 
  #ans-4, #ans-8, #ans-2, #ans-6{
     margin-top: 20px;
