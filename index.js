@@ -6,7 +6,7 @@ checkId.once("value")
 	snapshot.forEach(function(childSnapshot){
 		var id = childSnapshot.key;
 		arr.push(id);
-		console.log(arr);
+		// console.log(arr);
 				
 	})
 });
