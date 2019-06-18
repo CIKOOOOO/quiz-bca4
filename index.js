@@ -26,7 +26,6 @@ function showTotalScore(){
 			document.getElementById("bodycontainer1").style.display = "none";
 			document.getElementById("bodycontainer3").style.display = "block";
 			document.getElementById("bodycontainer2").style.display = "none";
-			// document.getElementById("nickname").innerHTML = finalNickname;
 
 			firebase.database()
 			.ref(`users/${finalNickname}/`)
@@ -41,7 +40,10 @@ function showTotalScore(){
 				}
 
 				for (let index = 1; index <= TOTAL_QUIZ; index++) {
-					document.getElementById("p"+index).innerHTML = quiz[index];
+					if(quiz[index]=='5')
+						document.getElementById("p"+index).innerHTML = quiz[index]+" <b style='color:red'>(X)</b>";
+					else 
+						document.getElementById("p"+index).innerHTML = quiz[index];
 					total_point += quiz[index];
 				}
 
@@ -210,7 +212,10 @@ function submitData(){
 		}
 
 		for (let index = 1; index <= 20; index++) {
-			document.getElementById("p"+index).innerHTML = quiz[index];
+			if(quiz[index]=='5')
+				document.getElementById("p"+index).innerHTML = quiz[index]+" <b style='color:red'>(X)</b>";
+			else 
+				document.getElementById("p"+index).innerHTML = quiz[index];
 			total_point += quiz[index];
 		}
 
