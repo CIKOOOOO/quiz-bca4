@@ -216,7 +216,7 @@ function submitData(){
 
 		document.getElementById("nickname").innerHTML = nickname;
 		document.getElementById("score").innerHTML = total_point;
-		totalscore(total_point. nickame);
+		totalscore(total_point, nickname);
 	});
 }
 
