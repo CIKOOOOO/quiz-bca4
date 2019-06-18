@@ -91,7 +91,7 @@ body{
 /* mainquiz */
 
 #bodycontainer2{
-    background-color: blue;
+    background-color: #26a8a3;
     display: none;
     margin: 0px;
     padding: 5px;
@@ -147,6 +147,7 @@ body{
     background-color:#ddd;
     padding: 10px 0px;
     font-size:16px;
+    margin-top: 1px;
     border: 1px solid #444;
     width: 98%;
 }
@@ -176,6 +177,7 @@ body{
     background-color:#ddd;
     padding: 10px 0px;
     font-size:16px;
+    margin-top: 1px;
     border: 1px solid #444;
     width: 98%;
 }
