@@ -233,6 +233,6 @@ function pushTotalScore(score, nick){
 	var firebaseRef = firebase.database().ref('leaderboard/'+finalNickname);
 	firebaseRef.set({
 		total_score : score,
-		nickame : nick
+		nickname : nick
 	});
 }
