@@ -56,7 +56,7 @@
 	<!-- screen 2 -->
 	<div id="bodycontainer2">
 		<div class="container2">
-			<progress value="0" max="25" id="progressBar"></progress>
+			<progress value="0" max="45" id="progressBar"></progress>
 			<div class="box">
 				<!-- <img src="/res/bca.png" width="100px" height="100px" alt="qimg"> -->
 				<div class="question">Sudah berapa kali aplikasi Go-Jek didownload di Play Store?</div> 
