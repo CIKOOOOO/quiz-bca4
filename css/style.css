@@ -1,6 +1,6 @@
 
 html{
-    background-image: url("../res/1.png");
+    background-image: url("../res/background.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -91,7 +91,9 @@ body{
 /* mainquiz */
 
 #bodycontainer2{
-    background-color: #26a8a3;
+    background-image: url("../res/background.png");
+    background-repeat: round;
+    background-size: contain;
     display: none;
     margin: 0px;
     padding: 5px;
@@ -116,7 +118,6 @@ body{
     margin-right: auto;
     border-radius: 10px;
     padding-top: 20px;
-    padding-bottom: 20px;
     border: none;
 }
 
@@ -215,8 +216,9 @@ body{
 
 /* score */
 #bodycontainer3{
-    background-image: url("../res/1.png");
-    background-repeat: no-repeat;
+    background-image: url("../res/background.png");
+    background-repeat: round;
+    background-size: contain;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100%;
     display: none;
