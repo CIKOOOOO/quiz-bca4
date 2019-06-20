@@ -38,8 +38,8 @@ body{
 }
 
 .container1 h1{
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     color: white;
     font-size: 60px;
 }
@@ -50,6 +50,7 @@ body{
     background: ghostwhite;
     border-radius: 8px;
     margin: auto;
+    margin-top: 90px;
 }
 
 .nickbox input{
