@@ -38,7 +38,7 @@
 	<!-- screen1 -->
 	<div id="bodycontainer1">
 		<div class="container1">
-			<h1>Quiz Bca</h1>
+			<h1>Quiz BCA</h1>
 				<!-- <form method="POST" action="main_quiz1.php" onsubmit="return submitClick();">	 -->
 					<div class="nickbox">
 						<input type="text" id="inputNickname" placeholder="masukan id" name="nickname" required> <br>
