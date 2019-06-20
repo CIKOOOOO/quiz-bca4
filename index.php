@@ -38,7 +38,7 @@
 	<!-- screen1 -->
 	<div id="bodycontainer1">
 		<div class="container1">
-			<h1>Quiz BCA</h1>
+			<h1>Kuis<br>COP DPD</h1>
 			<img src="res/logo.png" width="100px" height="100px">
 				<!-- <form method="POST" action="main_quiz1.php" onsubmit="return submitClick();">	 -->
 					<div class="nickbox">
